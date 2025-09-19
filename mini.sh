@@ -1,0 +1,6 @@
+yback(sip-silence)
+exten => 8369,n,AGI(agi://127.0.0.1:4577/call_log)
+exten => 8369,n,AMD(2500,2500,1000,5000,120,50,4,256)
+exten => 8369,n,AGI(VD_amd.agi,${EXTEN})
+exten => 8369,n,AGI(agi-VDAD_ALL_outbound.agi,NORMAL-----LB)
+exten => 8369,n,Hangup()
