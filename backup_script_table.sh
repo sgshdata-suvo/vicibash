@@ -1,3 +1,4 @@
+# This is for Mysql table backup , for all type of msql table
 #!/bin/bash
 
 #Drectory to store backups
