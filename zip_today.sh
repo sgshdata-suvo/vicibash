@@ -1,3 +1,4 @@
+#All recording file will upload automaticaly at preferable time
 #!/bin/bash
 
 # Directory where files are located
